@@ -1,0 +1,496 @@
+
+
+/* Home Section */
+.home-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+  max-width: 50%;
+  margin-left: 10%;
+}
+
+.left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.left p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.left button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgb(244, 22, 133);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.left button:hover {
+  background-color: rgb(255, 243, 245);
+  color: black;
+}
+
+.right-div {
+  width: 50%;
+  margin-top: 10%;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  padding: 0;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.about-text h5 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Feature Section */
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #fff;
+  padding: 70px;
+}
+
+.feature-content,
+.feature-content-two {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.feature-content img {
+  width: 20%;
+  border-radius: 10px;
+}
+
+.feature-content-two img {
+  width: 30%;
+}
+
+.feature-content h2 {
+  margin-top: 10px;
+}
+
+.feature-content h2,
+.feature-content-two h2 {
+  margin: 30px 0;
+}
+
+.feature-content p,
+.feature-content-two p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.feature-content-three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  gap: 30px;
+  padding: 10px;
+}
+
+.feature-content-three div {
+  flex: 1;
+  text-align: left;
+}
+
+.feature-content-three h2 {
+  text-align: left;
+  font-size: 1.8rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.feature-content-three p {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.feature-image3 {
+  flex: 1;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.feature-icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /* Ensures equal spacing around items */
+  align-items: center; /* Vertically aligns items */
+  width: 100%; /* Takes full width of the screen */
+  padding: 20px; /* Add spacing around the container */
+  box-sizing: border-box; /* Includes padding in total width */
+}
+
+.feature-content-icons {
+  flex: 1; /* Equal width for all items */
+  margin: 0 15px; /* Adds spacing between items */
+  text-align: center; /* Centers text and content */
+}
+
+
+
+.feature-content-icons img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.feature-content-icons h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature-content-icons p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+/* Feature Numbers Section */
+.feature-numbers-container {
+  display: flex;
+  flex-direction: row; /* Arrange items horizontally */
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: center; /* Align items vertically */
+  width: 100%; /* Full width */
+  padding: 20px 80px; /* Adjust padding for spacing */
+  background-color: #f9f9f9; /* Optional background color */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.feature-numbers {
+  text-align: center;
+  flex: 1;
+}
+
+.feature-numbers .number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature-numbers h4 {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.how-to-use {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Common Styling for Sections */
+.how-to-use > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Styling */
+.how-to-use h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-to-use p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  align-items: center;
+}
+
+.how-to-use div > div {
+  font-weight: bold;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Image Styling */
+.how-to-use img {
+  flex: 1;
+  max-width: 20%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Layout for How-One (Text Left, Image Right) */
+.how-one {
+  flex-direction: row;
+}
+
+/* Layout for How-Two (Image Left, Text Right) */
+.how-two {
+  flex-direction: row-reverse;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #f5f5f5;
+  max-width: 2000px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.brand img {
+  width: 200px; /* Allow the image to take full available space */
+  max-width: 1200px; /* Increase the maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+/* Styling for the phone section */
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ensures the container spans the full screen width */
+  background-color: #ffffff;
+}
+
+.phone img {
+  width: 100%; 
+  max-width: none; 
+  height: auto; 
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+  text-align: center;
+  background-image: url('../assests/end.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff; 
+}
+
+.download h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Shadow for better readability */
+}
+
+.download button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: rgb(221, 46, 134);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-buttons {
+  display: flex;
+  gap: 50px; 
+}
+
+.download button:hover {
+  background-color: #fff;
+  transform: scale(1.05);
+  color: #333;
+}
+
+.download button + button {
+  margin-left: 10px;
+}
+
+.section-wide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  background-color:#333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300%;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap; 
+}
+
+.section-wide > div h2 {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.section-wide > div p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form form {
+  display: flex;
+  align-items: center;
+}
+
+.form input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  width: 200px;
+  transition: border-color 0.3s ease;
+}
+
+.form input[type="text"]:focus {
+  border-color: #007BFF;
+}
+
+
+.form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: rgb(230, 41, 135);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form button:hover {
+  background-color: black;
+  transform: scale(1.05);
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* General layout changes for smaller screens */
+  .home-container,
+  .about,
+  .feature {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .left,
+  .right-div,
+  .about-text,
+  .about-image,
+  .feature-content,
+  .feature-content-two {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .left img,
+  .right-div img,
+  .about-image img,
+  .feature-content img,
+  .feature-content-two img {
+    max-width: 100%;
+  }
+
+  /* For feature-content-three (text and image layout) */
+  .feature-content-three {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feature-image3 {
+    width: 30%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .feature-content-three div {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .how-to-use > div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .how-to-use img {
+    max-width: 20%;
+  }
+}
